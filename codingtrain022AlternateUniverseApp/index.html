@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>codingtrain</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Domine:400, 700|Tinos" rel="stylesheet">
+	<script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script>
+	<script src="sketch.js"></script>
+  <style>
+		body {
+		  margin:0;
+		  padding:0;
+		}
+
+		a:link {
+		  color: black;
+		}
+
+		a:visited {
+		  color: black;
+		}
+
+		a:hover {
+		  color: black;
+		}
+
+		a:active {
+		  color: black;
+		}
+
+		button {
+		  width: 90px;
+		}
+
+		h2 {
+		  font-family: 'Domine', serif;
+		  font-weight: bold;
+		}
+
+		h5 {
+		  font-family: 'Domine', serif;
+		  font-weight: bold;
+		}
+
+		textarea {
+		  width: 500px;
+		  height: 250px;
+		}
+
+		#apilogo {
+		  margin-bottom: 30px;
+		}
+
+		#date {
+		  background-color: yellow;
+			font-weight: bolder;
+		}
+
+		#nyt {
+		  margin-top:30px;
+		  margin-bottom: 20px;
+		  height: 80%;
+		  width: 80%;
+		}
+
+		#obamatrump {
+		  margin-top: 20px;
+		  margin-bottom: 20px;
+		  height: 40%;
+		  width: 40%;
+		}
+
+		#search {
+		  margin-top: 15px;
+		  margin-bottom: 15px;
+		}
+
+		.bodycopy {
+		  font-family: 'Tinos', serif;
+		}
+
+		.main {
+		  text-align: center;
+		}
+  </style>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="main">
+	  <img id="nyt" src="../libraries/nyt.png"></img></br>
+		<img id="obamatrump" src="https://scottlieber.files.wordpress.com/2017/12/obama.jpeg"></img>
+		<img id="obamatrump" src="https://scottlieber.files.wordpress.com/2017/12/trump1.jpg"></img>
+		<br/>
+		<div id="search">
+			<button id="previous">Previous</button>
+			<button id="rand">Random</button>
+			<button id="next">Next</button>
+		  <br/>
+	  </div>
+	</div>
+		<p id="resultsDate"></p>
+		<p id="result0"></p>
+		<p id="result1"></p>
+		<p id="result2"></p>
+		<p id="result3"></p>
+		<p id="result4"></p>
+		<p id="result5"></p>
+		<p id="result6"></p>
+		<p id="result7"></p>
+		<p id="result8"></p>
+		<p id="result9"></p>
+		<a href="http://developer.nytimes.com" target="_blank"><img id="apilogo" src="../libraries/apilogo.png"></img></a>
+	</div>
+</body>
+</html>

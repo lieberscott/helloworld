@@ -1,0 +1,74 @@
+body {
+  margin:0;
+  padding:0;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
+}
+
+button {
+  width: 90px;
+}
+
+h2 {
+  font-family: 'Domine', serif;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Domine', serif;
+  font-weight: bold;
+}
+
+textarea {
+  width: 500px;
+  height: 250px;
+}
+
+#apilogo {
+  margin-bottom: 30px;
+}
+
+#date {
+  background-color: yellow;
+}
+
+#nyt {
+  margin-top:30px;
+  margin-bottom: 20px;
+  height: 80%;
+  width: 80%;
+}
+
+#obamatrump {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 40%;
+  width: 40%;
+}
+
+#search {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.bodycopy {
+  font-family: 'Tinos', serif;
+}
+
+.main {
+  text-align: center;
+}

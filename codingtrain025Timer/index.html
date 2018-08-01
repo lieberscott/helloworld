@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>codingtrain</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<!-- <script src="libraries/p5.js"></script>
+	<script src="libraries/p5.dom.js"></script>
+	<script src="libraries/p5.sound.js"></script> -->
+	<script src="sketch1.js"></script>
+
+	<style>
+	/* $backg: #42474f;
+	$lime: #35ff11; */
+
+	body {
+	  background: #42474f;;
+	  color: white;
+	  text-align: center;
+	}
+
+	button {
+	  background: #42474f;;
+	  border: none;
+	  color: white;
+	}
+
+	button:focus {
+	  background: #42474f;;
+	  outline: none;
+	  color: white;
+	}
+
+	.project {
+	  display: block;
+	  margin: auto;
+	  margin-top: 30px;
+	  font-family: 'Open Sans', sans-serif;
+	}
+
+	.title {
+	  display: block;
+	  margin: auto;
+	  margin-top: 50px;
+	  font-family: 'Pacifico', sans-serif;
+	  font-size: 48pt;
+	}
+
+	#button {
+	  border: 2px solid #35ff11;
+	  border-radius: 50%;
+	  margin-top: 10px;
+	  margin-bottom: 40px;
+	  text-align: center;
+	  width: 300px;
+	  height: 300px;
+	}
+
+	#btimer {
+	  font-size: 18pt;
+	}
+
+	#stimer {
+	  font-size: 18pt;
+	}
+
+	#buttonhtml {
+	  font-size: 24pt;
+	}
+
+	#main {
+	  display: block;
+	  margin: auto;
+	}
+	</style>
+</head>
+<body>
+	<div class="container-fluid">
+    <div class="title">
+      Simple Pomodoro Clock
+    </div>
+    <div class="project">
+      <div class="row">
+        <div class="offset-sm-3 col-sm-3">SESSION<br/>
+          <button id="sdecrease" type="button">-</button>
+          <span id="stimer">20</span>
+          <button id="sincrease" type="button">+</button><br/>
+        </div>
+        <div class="col-sm-3">BREAK<br/>
+          <button id="bdecrease" type="button">-</button>
+          <span id="btimer">5</span>
+          <button id="bincrease" type="button">+</button><br/>
+        </div>
+      </div>
+      <div id="main" class="row">
+        <div>
+          <button id="button" type="button"><span id="buttonhtml" class="align-middle">Start</span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
